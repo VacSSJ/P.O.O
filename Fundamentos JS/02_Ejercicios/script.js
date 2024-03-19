@@ -8,7 +8,7 @@ function declararVariables(){
     let ahora = 2024
     let fecha_nac = 2005
     let resultado = ahora - fecha_nac
-    alert("Mi edad actual es: " + resultado)
+    alert(`Mi edad actual es: ${resultado}`)
 }
 
 // Ejercicio 2: Asignación de valores
@@ -17,7 +17,7 @@ function asignarValores(){
 // Tu código aquí
 let var1 = "El pepe"
 let var2 = var1
-alert("El valor de var2 es: " + var2)
+alert(`El valor de var2 es: ${var2}`)
 }
 
 // Ejercicio 3: Operaciones matemáticas
@@ -45,11 +45,11 @@ let direccion = "Ejercito libertador"
 let n_casa = "3084"
 let mensaje = "La comuna es: " + direccion +  " " + n_casa
 let longitud = mensaje.length
-alert("Mensaje: " + mensaje + "\nLongitud: " + longitud + "\nPrimer caracter: " + mensaje[30])
+alert(`Mensaje: ${mensaje}\nLongitud: ${longitud}\nPrimer caracter: ${mensaje[30]}`)
 }
 
 function suma_indices(){
     let Array = [10,2,3,6,1,9,12]
     let suma = Array[6] + Array[5] + Array[0]
-    alert(suma)
+    alert(`La suma de indices es: ${suma}`)
 }
