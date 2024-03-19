@@ -5,14 +5,19 @@ console.log("Vinculado Correctamente")
 
 function declararVariables(){
     // Tu código aquí
-    alert("El pepe")
+    let ahora = 2024
+    let fecha_nac = 2005
+    let resultado = ahora - fecha_nac
+    alert("Mi edad actual es: " + resultado)
 }
 
 // Ejercicio 2: Asignación de valores
 // Instrucciones: Completa la función para asignar el valor de 'var1' a 'var2' y luego muestra el valor de 'var2'.
 function asignarValores(){
 // Tu código aquí
-
+let var1 = "El pepe"
+let var2 = var1
+alert("El valor de var2 es: " + var2)
 }
 
 // Ejercicio 3: Operaciones matemáticas
@@ -21,7 +26,14 @@ function asignarValores(){
 // Muestra los resultados en un mensaje.
 function realizarOperaciones(){
 // Tu código aquí
-alert("XD")
+let num1 = 4
+let num2 = 10
+let num3 = 20
+let suma = num1 + num2 + num3
+let resta = num1 + num3
+let multiplicacion = num2 * num3
+let divicion = num1/120
+alert("La suma es: " + suma + "\n la resta es: " + resta + "\n la multiplicacion es: " + multiplicacion + "\n la divicion es: " + divicion)
 }
 
 // Ejercicio 4: Manipulación de cadenas
@@ -29,5 +41,9 @@ alert("XD")
 // Luego, muestra la longitud del mensaje y antepenultimo en el mensaje. (.length)
 function manipularCadenas(){
 // Tu código aqui
-alert("Eso tilin")
+let direccion = "Ejercito libertador"
+let n_casa = "3084"
+let mensaje = "La comuna es: " + direccion +  " " + n_casa
+let longitud = mensaje.length
+alert("Mensaje: " + mensaje + "\nLongitud: " + longitud + "\nPrimer caracter: " + mensaje[30])
 }
