@@ -33,7 +33,7 @@ let suma = num1 + num2 + num3
 let resta = num1 + num3
 let multiplicacion = num2 * num3
 let divicion = num1/120
-alert("La suma es: " + suma + "\n la resta es: " + resta + "\n la multiplicacion es: " + multiplicacion + "\n la divicion es: " + divicion)
+alert(`La suma es: ${suma}\nla resta es: ${resta}\nla multiplicacion es: ${multiplicacion}\nla divicion es: ${divicion}`)
 }
 
 // Ejercicio 4: Manipulación de cadenas
