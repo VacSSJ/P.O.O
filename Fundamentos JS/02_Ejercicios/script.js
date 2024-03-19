@@ -47,3 +47,9 @@ let mensaje = "La comuna es: " + direccion +  " " + n_casa
 let longitud = mensaje.length
 alert("Mensaje: " + mensaje + "\nLongitud: " + longitud + "\nPrimer caracter: " + mensaje[30])
 }
+
+function suma_indices(){
+    let Array = [10,2,3,6,1,9,12]
+    let suma = Array[6] + Array[5] + Array[0]
+    alert(suma)
+}
