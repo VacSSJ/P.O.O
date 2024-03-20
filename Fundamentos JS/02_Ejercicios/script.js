@@ -49,7 +49,7 @@ alert(`Mensaje: ${mensaje}\nLongitud: ${longitud}\nAnte penultimo: ${mensaje[30]
 }
 
 function suma_indices(){
-    let Array = [10,2,3,6,1,9,12]
+    let Array = [1,2,3,4,5,6,7]
     let suma = Array[6] + Array[5] + Array[0]
     alert(`La suma de indices es: ${suma}`)
 }
