@@ -45,7 +45,7 @@ let direccion = "Ejercito libertador"
 let n_casa = "3084"
 let mensaje = "La comuna es: " + direccion +  " " + n_casa
 let longitud = mensaje.length
-alert(`Mensaje: ${mensaje}\nLongitud: ${longitud}\nPrimer caracter: ${mensaje[30]}`)
+alert(`Mensaje: ${mensaje}\nLongitud: ${longitud}\nAnte penultimo: ${mensaje[30]}`)
 }
 
 function suma_indices(){
