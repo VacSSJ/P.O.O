@@ -29,7 +29,6 @@ function operandoMetodos(){
     eliminado.push(operacionModificada.shift())
     operacionModificada.unshift(5,3,300)
     operacionModificada.push(500,4,60)
-
     const suma = operacionModificada[0] + operacionModificada[1] + operacionModificada[2] + operacionModificada[3] + operacionModificada[4] + operacionModificada[5] + operacionModificada[6] + operacionModificada[7] + operacionModificada[8] + operacionModificada[9]
-    alert(`Sin modificacion: ${operacionInicial} \nCon modificacion: ${operacionModificada} \nEliminados: ${eliminado} \nSuma: ${suma}`)
+    alert(`Sin modificacion: ${operacionInicial} \nCon modificacion: ${operacionModificada} \nAgregados: 5,3,300,500,4,60 \nEliminados: ${eliminado} \nSuma: ${suma}`)
 }
