@@ -1,5 +1,5 @@
 function temp(){
-    let temperatura = prompt("Ingrese la temperatura actual")
+    let temperatura = parseInt(prompt("Ingrese la temperatura actual"))
     if(temperatura <= 0){
         ambiente = (`<h2>Hace frio ${temperatura}°</h2>`)
     }
@@ -9,6 +9,9 @@ function temp(){
     }
     else if(temperatura > 0, temperatura <=25){
         ambiente = (`<h2>se siente agradable ${temperatura}°</h2>`)
+    }
+    else{
+        ambiente = (`<h2>Porfavor ingrese un dato valido</h2>`)
     }
     document.getElementById(`lista`).innerHTML = ambiente
 }
