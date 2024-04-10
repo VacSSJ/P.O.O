@@ -1,6 +1,5 @@
 function puntaje(){
     let puntuacion = parseInt(prompt(`Ingrese su puntuacion`))
-    let resultado = ""
     if(puntuacion >= 90){
         resultado = (`<h2>${puntuacion} WoW exelente puntaje</h2>`)
     }
@@ -11,7 +10,7 @@ function puntaje(){
         resultado = (`<h2>${puntuacion} Necesitas mejorar</h2`)
     }
     else{
-        resultado = (`Ingrese el valor valido`)
+        resultado = (`<h2>Ingrese el valor valido</h2>`)
     }
     document.getElementById(`lista`).innerHTML = resultado
 }
