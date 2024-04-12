@@ -5,5 +5,5 @@ for (let i = 0; i < 5; i++) {
     suma += calificacion;
 }
 let promedio = suma / 5;
-document.getElementById("lista").innerHTML = promedio
+document.getElementById("lista").innerHTML = (`<h2>Su Promedio es un: ${promedio}</h2>`)
 }
