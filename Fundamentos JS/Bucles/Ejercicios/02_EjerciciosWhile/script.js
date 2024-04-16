@@ -6,7 +6,7 @@ function Suma(){
     while(contador < 10){
         suma += contador
         sumaStr += contador + "+"
-        Array.push(suma)
+        Array.push(suma,contador)
         contador++
     }
     suma += contador
